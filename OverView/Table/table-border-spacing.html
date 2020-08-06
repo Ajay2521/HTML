@@ -1,0 +1,104 @@
+<!-- In this lets see about tables in HTML. -->
+
+<!-- border-spacing = used to specifies the spaces between the cells.It is an CSS property. -->
+
+<!-- Here is the program for table creation in HTML. -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Table with border-spacing example.</title>
+
+        <style>
+
+            table, th, td{
+
+                border: 2px solid black;
+
+            }
+
+            th, td{
+
+                padding: 20px;
+
+            }
+
+            .Age{
+
+                text-align: right;
+                
+            }
+            
+            table{
+
+                border-spacing: 7px;
+                
+            }
+        </style>
+
+    </head>
+
+    <body>
+    
+        <table style="width: 100%;">
+
+            <tr>
+
+                <th>FirstName</th>
+
+                <th>LastName</th>
+
+                <th>Age</th>
+
+                <th>Gender</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Ajay</td>
+
+                <td>M</td>
+
+                <td class = 'Age'>19</td>
+
+                <td>Male</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Maayon</td>
+
+                <td>A</td>
+
+                <td class = 'Age'>19</td>
+
+                <td>Male</td>
+                
+            </tr>
+            
+            <tr>
+
+                <td>Smily</td>
+
+                <td>A</td>
+
+                <td class = 'Age'> 19</td>
+
+                <td>Female</td>
+                
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>

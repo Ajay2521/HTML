@@ -1,0 +1,101 @@
+<!-- In this lets see about tables in HTML. -->
+
+<!-- <caption></caption> = used to give caption / table title in the HTML table. -->
+
+<!-- Here is the program for table creation in HTML. -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Table with caption example.</title>
+
+        <style>
+
+            table, th, td{
+
+                border: 2px solid black;
+
+            }
+
+            th, td{
+
+                padding: 20px;
+
+            }
+
+            .Age{
+
+                text-align: right;
+                
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+    
+        <table style="width: 100%;">
+
+            <caption style = "font-size: 30px;">My Table</caption>
+
+            <tr>
+
+                <th>FirstName</th>
+
+                <th>LastName</th>
+
+                <th>Age</th>
+
+                <th>Gender</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Ajay</td>
+
+                <td>M</td>
+
+                <td class = 'Age'>19</td>
+
+                <td>Male</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Maayon</td>
+
+                <td>A</td>
+
+                <td class = 'Age'>19</td>
+
+                <td>Male</td>
+                
+            </tr>
+            
+            <tr>
+
+                <td>Smily</td>
+
+                <td>A</td>
+
+                <td class = 'Age'> 19</td>
+
+                <td>Female</td>
+                
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>

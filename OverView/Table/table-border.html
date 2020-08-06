@@ -1,0 +1,97 @@
+<!-- In this lets see about tables in HTML. -->
+
+<!-- <table></table> = Used to define HTML table. -->
+
+<!-- <tr></tr> = Used to define the table rows in HTML. -->
+
+<!-- <th></th> = Used to define the head / columns of the table in HTML. By default text within <th> will be bold and center aligned. -->
+
+<!-- <td></td> = Used to define the data/cell in the HTML table. By default text will within <td> will be regular and left-aligned.  -->
+
+<!-- NOTE : Browser will create only table like structure and not the table with border to display the table in webpage.  -->
+
+<!-- To add border to the table use CSS style tag for it. -->
+
+<!-- Here is the program for table creation in HTML -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    
+        <meta charset="UTF-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Table with border example.</title>
+
+        <style>
+
+            table, th, td{
+
+                border: 2px solid black;
+
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+    
+        <table style="width: 100%;">
+
+            <tr>
+
+                <th>FirstName</th>
+
+                <th>LastName</th>
+
+                <th>Age</th>
+
+                <th>Gender</th>
+
+            </tr>
+
+            <tr>
+
+                <td>Ajay</td>
+
+                <td>M</td>
+
+                <td>19</td>
+
+                <td>Male</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Maayon</td>
+
+                <td>A</td>
+
+                <td>19</td>
+
+                <td>Male</td>
+                
+            </tr>
+            
+            <tr>
+
+                <td>Smily</td>
+
+                <td>A</td>
+
+                <td>19</td>
+
+                <td>Female</td>
+                
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>
